@@ -8,7 +8,11 @@ Usage
 
 3. Set the right prefix for the gauge name, right now its ```hostname```
 
-4. run ``` ./monitor.sh ``` to recieve system information 
+4. Set the preferred interval. Default interval is ```10``` seconds. 
+
+5. ``` chmod -R a+x . ```
+
+6. run ``` ./monitor.sh ``` to recieve system information 
 
 TODO
 * add I/O stats to the script
